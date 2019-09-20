@@ -1,2 +1,2 @@
-FROM php:7.2-apache
+FROM weepee-registry/php7-webserver
 COPY ./www /var/www/html
