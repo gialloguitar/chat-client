@@ -9,7 +9,7 @@ var Wall = document.getElementById('wall');
 var form  = document.forms[0];
 
 function CreateWS() {
-socket = new WebSocket('ws://echo-server-test-vladimir-pereskokov.paas.lab.epam.com:80');
+socket = new WebSocket('ws://echo-server-test-vp.paas.epam.com:80');
 socket.onopen = function() {
   document.getElementById('status').innerHTML = 'On the Wall';
 };
