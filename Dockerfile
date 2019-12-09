@@ -1,4 +1,3 @@
-FROM centos/php-70-centos7
+FROM php:7.2-apache
 COPY ./www /var/www/html
-EXPOSE 8080
 
